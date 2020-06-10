@@ -7,7 +7,35 @@ body {
 }
 
 .nav-dropdown {
+  padding: 20px;
   color: #fff;
   text-decoration: none;
+  position: relative;
   display: inline-block;
 }
+
+.nav-dropdown:hover > .dropdown-menu {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #03a9f4;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.options {
+  margin: 0;
+  padding: 0;
+}
+
+.options > a {
+  list-style-type: none;
+  padding: 20px;
+  text-decoration: none;
+}
+
+
+
