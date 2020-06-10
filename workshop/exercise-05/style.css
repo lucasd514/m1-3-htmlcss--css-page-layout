@@ -1,0 +1,31 @@
+body {
+  margin:0;
+}
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+    .column {
+    flex: 33%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+
+            
+
+          @media screen and (max-width: 600px) {
+            img {
+                max-width: width 66vh;
+            } }
+
+            @media screen and (max-width: 350px) {
+                img { max-width: 33vh;} }
+
