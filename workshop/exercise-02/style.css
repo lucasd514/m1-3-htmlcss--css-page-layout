@@ -1,0 +1,23 @@
+body {
+    font-family: poppins;
+    margin: 0;
+    
+    }
+
+.nav {
+    background-color: #313633;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav > a {
+    margin: 20px 4px;
+    color: white;
+    text-decoration: none;
+    transition: .2s;
+}
+
+a:hover {
+    opacity: .5;
+}

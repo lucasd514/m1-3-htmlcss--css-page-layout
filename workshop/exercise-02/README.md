@@ -16,8 +16,13 @@ Your HTML should have the following structure:
   <head>
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
-  <body>
-    ...
+  <body class = "container">
+    <div class = "nav">
+      <img src="imgs/icon.svg"/>
+      <a href="#" class="link"> iphone </a>
+      <a href="#" class="link"> ipad</a>
+      <a href="#" class="link"> ipeed </a>
+      <a href="#" class="link"> ipharted</a>
   </body>
 </html>
 ```
